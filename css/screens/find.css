@@ -1,8 +1,8 @@
 .icon-row {
   display: flex;
   justify-content: space-between;
-
-  padding: 0 20px 20px 25px;
+  flex-wrap: wrap;
+  padding: 0 10px;
 }
 
 .icon-row__icon {
@@ -12,11 +12,14 @@
 }
 
 .icon-row__icon i {
-  font-size: 30px;
+  font-size: 34px;
 }
 
 .icon-row__icon span {
-  margin-top: 15px;
+  margin-top: 10px;
+  font-size: 0.8em;
+  text-align: center;
+  line-height: 1rem;
 }
 
 .recommended-friends {
